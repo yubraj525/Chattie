@@ -89,7 +89,7 @@ const Page = () => {
             </p>
             
             <button
-              onClick={() => setView('landing')}
+              onClick={() => router.push('/')}
               className="w-full text-slate-400 hover:text-slate-300 mt-4 font-light text-sm transition"
             >
               ← Back to home
